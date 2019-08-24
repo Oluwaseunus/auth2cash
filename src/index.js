@@ -1,13 +1,6 @@
 import React from 'react';
 import { render } from 'react-dom';
-
-function App() {
-  return (
-    <div>
-      <p>This is the auth2cash app</p>
-    </div>
-  );
-}
+import Routes from './components/Routes/Routes';
 
 const rootElement = document.getElementById('root');
-render(<App />, rootElement);
+render(<Routes />, rootElement);
